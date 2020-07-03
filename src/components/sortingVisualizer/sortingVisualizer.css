@@ -1,0 +1,35 @@
+.array-container {
+  width: 90%;
+  margin: auto;
+  /* border: 3px; */
+  position: relative;
+  height: 625px;
+}
+
+.array-bar {
+  /*
+  width: 2px;
+  background-color: black;
+  display: inline-block;
+  margin: 0 1px;
+  */
+  /* position: relative; */
+  /* width: 2px; */
+  margin: 0 1px;
+  background-color: black;
+  vertical-align: top;
+  /* position: absolute; */
+  bottom: 0;
+  display: inline-block;
+}
+
+.btn {
+  margin: 10px 10px;
+  display: block;
+  top: 1000px;
+}
+.button-container {
+  background-color: red;
+  top: 675px;
+  left: 25%;
+}
