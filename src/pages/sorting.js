@@ -4,6 +4,7 @@ import SortingVisualizer from "../components/sortingVisualizer/sortingVisualizer
 import styled from "styled-components";
 import Slider from "../components/sliders/sizeSlider";
 import Slider1 from "../components/sliders/speedSlider";
+import NavBar from "../components/navBar/navbar";
 
 const Styles = styled.div``;
 
@@ -24,6 +25,7 @@ class sorting extends Component {
     return (
       <>
         <Styles>
+          <NavBar />
           <div className="App">
             <SortingVisualizer
               sizeFromApp={this.state.size}
