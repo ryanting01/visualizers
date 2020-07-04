@@ -10,6 +10,7 @@ import Slider from "./components/sliders/sizeSlider";
 import Slider1 from "./components/sliders/speedSlider";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import sorting from "./pages/sorting.js";
+import home from "./pages/home.js";
 
 const Styles = styled.div``;
 
@@ -56,6 +57,7 @@ class App extends Component {
         <div>
           <navBar />
           <Switch>
+            <Route path="/" component={home} exact />
             <Route path="/sorting" component={sorting} exact />
             hi
           </Switch>

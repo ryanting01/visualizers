@@ -219,7 +219,7 @@ class SortingVisualizer extends Component {
             type="button"
             class="btn btn-primary active"
           >
-            Generat New Array
+            Generate New Array
           </button>
           <button
             onClick={() => this.mergeSort()}
